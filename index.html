@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lul Game</title>
+<link rel="shortcut icon"
+      href="http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png"
+      type="image/x-icon" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="myGame()">
+  <div id="mainDiv" class="mainDiv">
+    <div id="leftSide" class="leftSide"></div>
+    <div id="rightSide" class="rightSide"></div>
+    <p class="exit" id="exit">Exit</p>
+    <div id="start" class="start">
+      <img src="smile.png" alt="start" class="imgStart">
+      <p class="mainTittle">Lul Game</p>
+      <p class="go" id="startGame">Start game</p>
+      <p class="shortGame" id="shortGame">Short game</p>
+      <p class="longGame" id="longGame">Long game</p>
+      <p class="rules">Click on the extra smiling face on the left</p>
+    </div>
+    <div id="gameOver" class="gameOver">
+      <p class="gameOverTittle">Game Over</p>
+      <p class="count" id="count">You went through <span id="f" class="f"></span> rounds </p>
+      <p class="repeat" id="tryAgain">Try again</p>
+    </div>
+  </div>
+<script src="common.js"></script>
+</body>
+</html>
